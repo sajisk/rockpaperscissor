@@ -1,7 +1,10 @@
+  // Dom Manipulation 
+
 const buttons = document.querySelectorAll('.btn');
 let comment = document.getElementById('comment');
 let human = document.getElementById('human-score');
 let computer = document.getElementById('computer-score');
+
 
 
 let humanScore = 0 ;
