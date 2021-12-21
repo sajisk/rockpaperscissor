@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d4ed9d;
+}
+
+div.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Pushster", cursive;
+  font-size: 60px;
+  color: #3a5465;
+  margin-top: 50px;
+  letter-spacing: 3px;
+}
+
+p {
+  font-family: "Pushster", cursive;
+  font-size: 40px;
+  font-weight: 600;
+  color: #3d3931;
+  padding: 20px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3d3931;
+  margin: 0 45px;
+}
+
+.button button {
+  padding: 20px 40px;
+  margin: 30px;
+  background: #3d3931;
+  outline: none;
+  border: none;
+  color: #64a97b;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 15px;
+  box-shadow: 2px 5px 5px #64a97b;
+}
+
+.button ~ div {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: "Pushster", cursive;
+  font-size: 40px;
+  font-weight: 600;
+  color: #3a5465;
+}
+
+.score {
+  font-family: "Pushster", cursive;
+  font-size: 45px;
+  color: #3d3931;
+}
